@@ -7,6 +7,7 @@ import { LogInContextProvider } from "./Context/LogInContext/Login.jsx";
 import ErrorBoundary from "./components/constants/Error.jsx";
 import { Toaster } from "react-hot-toast";
 import { BrowserRouter } from "react-router-dom";
+import { inject } from "@vercel/analytics"
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
